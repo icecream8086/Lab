@@ -3,6 +3,7 @@
 @REM     会忽略SSL错误
 @REM     同时添加代理
 @REM 测试版文件
+
 git config --global http.sslVerify "false"
-git config --global --unset http.proxy
+git config --global https.proxy
 git config --global --unset https.proxy
