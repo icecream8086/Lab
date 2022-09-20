@@ -4,5 +4,5 @@ for i in range(1,101):
     # ＃输出，去掉了换行符
         print('*', end="`") 
     # ＃ 如果包含7 输出＊
-    elif not in str(i)and int(i)%7 !=0:
+    elif "7" not in str(i)and int(i)%7 != 0:
         print(i,end='`')
